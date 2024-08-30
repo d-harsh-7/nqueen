@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.Navbar{
+    background: linear-gradient(90deg, #672280 1.18%, #9B25C5 83.69%, #A626D3 100%) ;
+    display: flex;
+    color: white;
+    padding:15px 10px;
+}
+.navheading{
+    
+    margin:0px;
+    margin-left: 50px;
+}
+.white-box{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 187, 132);
+}
+.white-box>p{
+    height: fit-content;
+}
+.black-box>p{
+    height: fit-content;
+}
+.black-box{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    
+
+    
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+.chess_box{
+    width:fit-content;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#main-body{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3,1fr);
+    justify-items:center ;
+    gap:5px;
+    margin: auto;
+    margin-top: 30px;
+}
+.play-game{
+    margin-top: 30px;
+    width: 100%;
+    gap:3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Play-button{
+    padding: 10px 32px;
+    border: none;
+    color: aliceblue;
+    background-color:#711F8D ;
+    border-radius:3px ;
+}
+#reset-button{
+    padding: 10px 32px;
+    border: none;
+    color: antiquewhite;
+    background-color:#711F8D  ;
+    border-radius:3px ;
+}
+#queens-no{
+    height: 30px;
+}
+#text-label{
+    font-size: 1.3rem;
+    font-weight:normal;
+}
