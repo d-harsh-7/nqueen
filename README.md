@@ -1,1 +1,1 @@
-# nqueen visualizer uses concept of data structure and alogorithm and concepts front end.
+Developed an interactive N-Queen Visualizer web application that visually demonstrates the step-by-step placement of queens on an N×N chessboard. The project focuses on UI clarity, user interaction, and real-time visualization, allowing users to select board size and observe algorithm execution dynamically. Emphasis was placed on clean UI design, responsive layout, and efficient DOM manipulation to enhance user experience
